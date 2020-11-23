@@ -12,7 +12,7 @@ A scala/spark program which extracts relevant information in desired formats fro
 The ProcessData.scala generates below output for the following questions:
 
 1.  Find the total number of flights for each month.
-![Table 1](https://github.com/khushbuupatel/Aircraft-Scala-Queries/tree/master/OutputImages/Output1.PNG)
+![Table 1](https://github.com/khushbuupatel/Aircraft-Scala-Queries/tree/master/OutputImages/Output1.PNG?raw=true)
 
 
 2.  Find the names of the 100 most frequent flyers.
