@@ -6,7 +6,7 @@ A Scala/Spark program which extracts relevant information in desired formats fro
 ## Pre-requisites :rotating_light:
 - Developed using **Intellij IDEA IDE**
 - **Scala Plugin** `>= v2.11.11`
-- **JDK** `>= v14.0.2`
+- **JDK** `>= v14.0.2`  
 
 ## What's in there?
 The ProcessData.scala generates below output for the following questions:
