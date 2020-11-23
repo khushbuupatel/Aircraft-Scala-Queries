@@ -1,0 +1,104 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\kevin\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\kevin\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.3 (Oracle Corporation Java 1.8.0_261)
+[debug]       Load.loadUnit: plugins took 136.5049ms
+[debug]       Load.loadUnit: defsScala took 0.4363ms
+[debug] [Loading] Scanning directory C:\Users\kevin\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\kevin\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 37.0069 ms
+[debug]           Load.resolveProject(global-plugins) took 72.8663ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\kevin\.sbt\1.0\plugins, plugins: List(<none>))) took 152.3637ms
+[debug] [Loading] Done in C:\Users\kevin\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 195.6869ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.3391ms
+[debug]     Load.loadUnit(file:/C:/Users/kevin/.sbt/1.0/plugins/, ...) took 345.9779ms
+[debug]   Load.apply: load took 912.973ms
+[debug]   Load.apply: resolveProjects took 10.4327ms
+[debug]   Load.apply: finalTransforms took 93.5552ms
+[debug]   Load.apply: config.delegates took 13.3615ms
+[debug]   Load.apply: Def.make(settings)... took 1965.35ms
+[debug]   Load.apply: structureIndex took 187.7167ms
+[debug]   Load.apply: mkStreams took 3.1583ms
+[info] loading global plugins from C:\Users\kevin\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 57597.4539ms
+[debug]           Load.loadUnit: plugins took 61.1312ms
+[debug]           Load.loadUnit: defsScala took 0.0033ms
+[debug] [Loading] Scanning directory C:\Users\kevin\Desktop\Hacks\WJ\project
+[debug]             Load.loadUnit: mkEval took 107.1005ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\kevin\Desktop\Hacks\WJ\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 6.6002 ms
+[info] loading settings for project wj-build from idea.sbt ...
+[debug]               Load.resolveProject(wj-build) took 55.0601ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id wj-build, base: C:\Users\kevin\Desktop\Hacks\WJ\project, plugins: List(<none>))) took 62.4135ms
+[debug] [Loading] Done in C:\Users\kevin\Desktop\Hacks\WJ\project, returning: (wj-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 10938.1326ms
+[debug]           Load.loadUnit: cleanEvalClasses took 7.6807ms
+[debug]         Load.loadUnit(file:/C:/Users/kevin/Desktop/Hacks/WJ/project/, ...) took 11008.3915ms
+[debug]       Load.apply: load took 11010.5365ms
+[debug]       Load.apply: resolveProjects took 0.1665ms
+[debug]       Load.apply: finalTransforms took 18.4649ms
+[debug]       Load.apply: config.delegates took 0.4286ms
+[debug]       Load.apply: Def.make(settings)... took 583.4132ms
+[debug]       Load.apply: structureIndex took 48.6355ms
+[debug]       Load.apply: mkStreams took 0.003ms
+[info] loading project definition from C:\Users\kevin\Desktop\Hacks\WJ\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 20255.4019ms
+[debug]     Load.loadUnit: defsScala took 0.0031ms
+[debug] [Loading] Scanning directory C:\Users\kevin\Desktop\Hacks\WJ
+[debug]       Load.loadUnit: mkEval took 0.4691ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\kevin\Desktop\Hacks\WJ, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 3.3932 ms
+[info] loading settings for project wj from build.sbt ...
+[debug]         Load.resolveProject(wj) took 72.021ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id wj, base: C:\Users\kevin\Desktop\Hacks\WJ, plugins: List(<none>))) took 77.599ms
+[debug] [Loading] Done in C:\Users\kevin\Desktop\Hacks\WJ, returning: (wj)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2373.1187ms
+[debug]     Load.loadUnit: cleanEvalClasses took 30.425ms
+[debug]   Load.loadUnit(file:/C:/Users/kevin/Desktop/Hacks/WJ/, ...) took 22660.2066ms
+[debug] Load.apply: load took 22662.5349ms
+[debug] Load.apply: resolveProjects took 0.1315ms
+[debug] Load.apply: finalTransforms took 38.3447ms
+[debug] Load.apply: config.delegates took 0.3705ms
+[debug] Load.apply: Def.make(settings)... took 116.1219ms
+[debug] Load.apply: structureIndex took 30.2218ms
+[debug] Load.apply: mkStreams took 0.0041ms
+[info] set current project to WJ (in build file:/C:/Users/kevin/Desktop/Hacks/WJ/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 1381 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 1381, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to WJ (in build file:/C:/Users/kevin/Desktop/Hacks/WJ/)
+[debug] > Exec(idea-shell, None, None)
+[warn] In the last 9810 seconds, 10.448 (0.1%) were spent in GC. [Heap: 0.31GB free of 0.40GB, max 1.33GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.
